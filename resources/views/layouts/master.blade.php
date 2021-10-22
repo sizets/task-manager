@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="loading" lang="en" data-textdirection="ltr">
+<html class="loading dark-layout" lang="en" data-layout="dark-layout" data-textdirection="ltr">
 <!-- BEGIN: Head-->
 
 <head>
@@ -9,9 +9,9 @@
     <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>MOH-Inventory</title>
-    <link rel="apple-touch-icon" href="/app-assets/images/ico/apple-icon-120.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/app-assets/images/ico/smallLogo.png">
+    <title>OMS | Office Management System</title>
+    <link rel="apple-touch-icon" href="/app-assets/images/logo/cropped-foc.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/app-assets/images/logo/cropped-foc.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
@@ -88,12 +88,14 @@
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
-    <!-- <script src="/app-assets/vendors/js/charts/apexcharts.min.js"></script> -->
+    <script src="/app-assets/vendors/js/charts/apexcharts.min.js"></script>
     <script src="/app-assets/vendors/js/forms/select/select2.full.min.js"></script>
     <!-- <script src="/app-assets/vendors/js/extensions/toastr.min.js"></script> -->
     <script src="/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
     <script src="/app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
     <!-- <script src="/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js?v=7.0.5"></script> -->
+    <script src="/app-assets/js/scripts/pages/dashboard-analytics.js"></script>
+    
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -102,13 +104,13 @@
     <!-- END: Theme JS-->
 
     <!-- BEGIN: Page JS-->
-    <!-- <script src="/app-assets/js/scripts/pages/dashboard-ecommerce.js"></script> -->
+    <script src="/app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
     <!-- END: Page JS-->
 
     <script src="/app-assets/js/scripts/extensions/ext-component-sweet-alerts.js"></script>
 
     <!-- BEGIN: Page JS-->
-    <!-- <script src="/app-assets/js/scripts/cards/card-statistics.js"></script> -->
+    <script src="/a pp-assets/js/scripts/cards/card-statistics.js"></script>
     <!-- END: Page JS-->
 
     @stack('script')

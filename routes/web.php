@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home')->middleware('auth');
 Route::post('/savevertical', 'VerticalController@save')->name('save');
 Route::get('/showvertical', 'VerticalController@show')->name('show.vertical');
 Route::get('/editvertical/{id}', 'VerticalController@edit')->name('edit.vertical');
